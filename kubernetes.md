@@ -23,3 +23,6 @@ kind get clusters
 # switch the context
 
 kubectl config use-context kind-first-cluster
+
+# deleting the cluster
+kind delete cluster --name first-cluster
