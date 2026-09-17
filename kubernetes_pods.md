@@ -11,5 +11,5 @@ kubectl logs nginx-pod
 kubectl logs -f nginx-pod
 
 # To describe the pods
-kubectl describe pod nginx-pod
+kubectl describe pod nginx-pod  
 kubectl describe pod/nginx-pod
