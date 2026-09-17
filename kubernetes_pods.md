@@ -34,3 +34,6 @@ kubectl apply -f pod.yaml
 
 # To go inside the pod 
 kubectl exec -it nginx-pod -- bash
+
+# Additional pods details like nodes, ips
+kubectl get pods -o wide
