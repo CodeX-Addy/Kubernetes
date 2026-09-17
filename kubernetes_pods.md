@@ -22,3 +22,9 @@ kubectl create -f pod.yaml
 
 # Generating yaml using dry run
 kubectl run nginx-pod --image=nginx --dry-run=client -o yaml > pod1.yaml
+
+# To edit the running pods
+kubectl edit pod nginx-pod
+
+# To check the labels
+kubectl get pods --show-labels
