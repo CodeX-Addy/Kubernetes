@@ -28,3 +28,9 @@ kubectl edit pod nginx-pod
 
 # To check the labels
 kubectl get pods --show-labels
+
+# Best industry practice to use apply instead of create
+kubectl apply -f pod.yaml
+
+# To go inside the pod 
+kubectl exec -it nginx-pod -- bash
