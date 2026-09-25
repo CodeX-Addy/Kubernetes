@@ -1,7 +1,7 @@
 # Cluster IP
 
 ## To create a service
-kubectl expose deploy nginx-deploy --port=80
+kubectl expose deploy nginx-deploy --port=80 (Default clusterip)
 
 ## To get the svc
 kubectl get svc
