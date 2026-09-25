@@ -11,3 +11,7 @@ minikube service nginx-deploy --url
 
 ## To check the endpoints
 kubectl get ep
+
+# NodePort
+
+kubectl apply -f service.yaml
