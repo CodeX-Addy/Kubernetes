@@ -14,4 +14,5 @@ kubectl get ep
 
 # NodePort
 
+## Creating using declarative way with yaml
 kubectl apply -f service.yaml
