@@ -10,3 +10,6 @@ kubectl get deploy
 
 # To scale out the replicas
 kubectl scale deployment nginx-deploy --replicas=2
+
+# Checking the description of deployment 
+kubectl describe deploy nginx-deploy 
