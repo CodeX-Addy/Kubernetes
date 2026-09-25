@@ -13,3 +13,6 @@ kubectl scale deployment nginx-deploy --replicas=2
 
 # Checking the description of deployment 
 kubectl describe deploy nginx-deploy 
+
+# To create yaml 
+kubectl create deploy sample --image=nginx --dry-run=client -o yaml > deploy.yaml
